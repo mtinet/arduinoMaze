@@ -33,7 +33,7 @@ void setup() {
   //시리얼 모니터링을 위한 세팅
   Serial.begin(9600);
 
-  //1, 2서보모터 핀 설정
+  //1, 2서보모터 핀 설정 
   myServo1.attach(3);
   myServo2.attach(11);
 }
